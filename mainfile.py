@@ -5,9 +5,7 @@
 
 from pytube import YouTube
 def link(lin):
-    #Save_Path = "C:/Users/Acer/Downloads/YT_Download"
-    Save_Path = ".../Downloads"
-    
+    Save_Path = "path"
     yt = YouTube(lin)
     print(yt.title)
     try:
